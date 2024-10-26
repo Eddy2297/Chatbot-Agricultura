@@ -77,6 +77,6 @@ Edilberto Salazar Garcia
 Christian Javier Uchima Sierra
 Adriana Maria Velez
 Ismael Vasco
-Gustavo Rodriguez
+
 
 
