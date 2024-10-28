@@ -1,5 +1,8 @@
 # Chatbot de Agricultura - Departamento de Antioquia
 
+![chatbot-agricultura](view-robot-tending-maintaining-gardens.jpg)
+
+
 Este proyecto es un chatbot desarrollado para proporcionar respuestas a preguntas relacionadas con la agricultura, el mantenimiento y el cuidado de diferentes cultivos en el departamento de Antioquia, como banano, lechuga, aguacate, plátano, papa, entre otros. Fue inicialmente desarrollado en Google Collaboratory y luego desplegado en una aplicación Flask utilizando Visual Studio.
 
 ## Descripción del Proyecto
@@ -49,6 +52,8 @@ El archivo `test4.csv` contiene la información estructurada en las siguientes c
 - **Embeddings**: Compara preguntas y respuestas mediante embeddings generados con Sentence Transformers, calculando similitudes para identificar la mejor respuesta.
 
 ## Lógica del Chatbot
+
+![chatbot-interfaz](chatbot-interfaz.png)
 
 - **Saludo**: El chatbot responde de manera amigable si detecta un saludo en el mensaje del usuario.
 - **Clasificación de Preguntas**: Si el input es una pregunta, se calcula su similitud con las preguntas en el dataset utilizando `cosine_similarity`.
